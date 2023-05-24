@@ -1,0 +1,20 @@
+{
+  "name": "@sst-url-shortner/core",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "@types/uuid": "^9.0.1",
+    "sst": "^2.10.0",
+    "vitest": "^0.31.1"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.338.0",
+    "electrodb": "^2.5.1",
+    "uuid": "^9.0.0"
+  }
+}
